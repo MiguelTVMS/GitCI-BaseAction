@@ -1,10 +1,13 @@
 {
     "name": "gitci-baseaction",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "description": "Base action the be used when creating you own action to GitCI",
-    "main": "index.js",
+    "main": "lib/index.js",
     "author": "João Miguel Marques Silva <joao@miguel.ms>",
     "license": "GPL-3.0",
+    "scripts": {
+        "test": "node test/index.js"
+    },
     "contributors": [
         "João Miguel Marques Silva <joao@miguel.ms> (http://www.miguel.ms)"
     ]
