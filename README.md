@@ -34,7 +34,7 @@ util.inherits(MyCommand, baseAction.BaseAction);
 // Override this function with your execute.
 MyCommand.prototype.execute = function () {
     ...
-    MyCommand.on("success", Object);
+    MyCommand.emit("actionSuccess", Object);
 };
 
 // Override this function with your validation of the command.
