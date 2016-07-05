@@ -16,6 +16,8 @@ var BaseAction = function (action) {
             throw new RangeError(util.format("There is no listener to the event \"%s\"", listener));
     });
 
+    this.action = action;
+
     this.validade();
 }
 util.inherits(BaseAction, eventEmitter);
@@ -37,6 +39,9 @@ BaseAction.prototype.execute = function () {
     return false;
 };
 
+/**
+ * The prototype function to validade the function
+ */
 BaseAction.prototype.validade = function () {
     return false;
 };
