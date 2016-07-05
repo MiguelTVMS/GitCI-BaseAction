@@ -5,6 +5,20 @@
     "main": "lib/index.js",
     "author": "João Miguel Marques Silva <joao@miguel.ms>",
     "license": "GPL-3.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jmtvms/GitCI-BaseAction.git"
+    },
+    "homepage": "https://github.com/jmtvms/GitCI-BaseAction",
+    "bugs": {
+        "email": "gitci-baseaction@miguel.ms",
+        "url": "https://github.com/jmtvms/GitCI-BaseAction/issues"
+    },
+    "keywords": [
+        "ci",
+        "base",
+        "implementation"
+    ],
     "scripts": {
         "test": "node test/index.js"
     },
