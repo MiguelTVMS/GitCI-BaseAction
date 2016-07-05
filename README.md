@@ -4,6 +4,14 @@ Base action the be used when creating you own action to GitCI
 ### Description
 This base action should be used when creating a new Action for GitCI.
 
+### Status
+Latest Version: [![npm version](https://badge.fury.io/js/gitci-baseaction.svg)](https://badge.fury.io/js/gitci-baseaction)
+
+| Branch   | Build status |
+|----------|:------------:|
+| master   | [![Build Status](https://travis-ci.org/jmtvms/GitCI-BaseAction.svg?branch=master)](https://travis-ci.org/jmtvms/GitCI-BaseAction)  |
+| develop  | [![Build Status](https://travis-ci.org/jmtvms/GitCI-BaseAction.svg?branch=develop)](https://travis-ci.org/jmtvms/GitCI-BaseAction)  |
+
 ### Example
 This is the example of the implementation of your own action.
 
