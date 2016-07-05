@@ -20,10 +20,14 @@ const util = require("util");
 const baseAction = require("gitci-baseaction");
 
 var MyCommand = function(action){
+    // Call the constructor from the base action.
+    MyCommand.super_.call(this, action);
 
     // Add the events you want do allow the implementation to have.
     this.availableListeners.push("myEvent");
 
+    // Add more custom code here.
+    ...
 }
 util.inherits(MyCommand, baseAction.BaseAction);
 
