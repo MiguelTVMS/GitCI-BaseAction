@@ -3,6 +3,9 @@ Base action the be used when creating you own action to GitCI
 
 ### Description
 This base action should be used when creating a new Action for GitCI.
+Know more about GitCI visiting:    
+GitHub: https://github.com/jmtvms/GitCI   
+NPM: https://www.npmjs.com/package/gitci
 
 ### Status
 Latest Version: [![npm version](https://badge.fury.io/js/gitci-baseaction.svg)](https://badge.fury.io/js/gitci-baseaction)

@@ -1,6 +1,6 @@
 {
     "name": "gitci-baseaction",
-    "version": "0.9.1",
+    "version": "1.0.0",
     "description": "Base action the be used when creating you own action to GitCI",
     "main": "lib/index.js",
     "author": "João Miguel Marques Silva <joao@miguel.ms>",
